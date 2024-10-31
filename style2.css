@@ -1,0 +1,256 @@
+body{margin: 0 0 0 0;
+    background-color: #455955;}
+    
+.header-2{
+    width: 100%;
+    height: 6vh;
+    background-color: #0D2426;
+    display: flex;
+    position: fixed;
+text-align: center;
+margin-top: -5%;}
+
+.header-e-0{
+    margin-left: 39%;
+    width: 4%;
+    margin-top: 0.5%;
+    font-size: 1em;
+    font-family: "Albert Sans", sans-serif;}
+
+
+.header-e-1{width: 5%;
+    margin-top: 0.5%;
+    font-size: 1em;
+    font-family: "Albert Sans", sans-serif;
+    margin-left: 1.5%;
+    font-weight: 800;}
+
+.header-e-2{width: 5%;
+    margin-top: 0.5%;
+    font-size: 1em;
+    font-family: "Albert Sans", sans-serif;
+    margin-left: 1.5%;}
+
+.header-e-3{width: 5%;
+    margin-top: 0.5%;
+    font-size: 1em;
+    font-family: "Albert Sans", sans-serif;
+    margin-left: 0.5%;}
+    
+a{text-decoration: none;
+    color: white;}
+
+.portfolio-div{
+    text-align: center;
+    font-size: 3em;font: fallback;
+    margin-top: 5%;
+    color: white;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 150;
+}
+
+.section-flex{
+    display: flex;}
+
+
+.div-port{
+    width: 10%;
+    height: 70vh;
+    background-color: #0D2426;
+    margin-top: 5%;
+    margin-left: 4.35%;
+    padding-left: 10%;}
+
+.div-port img{
+    width: 220%;
+    height: 70vh;
+    margin-left: -120%;
+    object-fit: cover;
+border: solid 10px #071415;
+transition: 0.3s;}
+
+.div-visitar{ font-family: "Albert Sans", sans-serif;
+font-size: 1.5em;
+width: 15%;
+margin-left: 10.5%;
+margin-top: 1.5%;
+color: white;}
+
+.descricao{
+    width: 100%;
+    height: 150vh;
+    background-color: #050f0f;
+    margin-top: 5%;
+    transition: 0.3s;
+}
+
+.imagem-descricao{display: flex;}
+
+.imagem-descricao img{
+    width: 15%;
+    height: 30vh;
+    margin-left: 1%;
+    object-fit: cover;
+transition: 0.3s;
+margin-top: 3%;
+margin-left: 3%;
+}
+
+.texto-descricao{
+    color:white;
+    margin-top: 3%;
+    margin-left: 2%;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 1.1em;
+}
+
+
+.imagem-descricao2{display: flex;}
+
+.imagem-descricao2 img{
+    width: 15%;
+    height: 30vh;
+    margin-left: 1%;
+    object-fit: cover;
+transition: 0.3s;
+margin-top: 3%;
+margin-left: 10%;
+}
+
+.texto-descricao2{
+    color:white;
+    margin-top: 3%;
+    margin-left: 2%;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+footer{background-color: black;
+    margin: 0px 0px 0px 0px;
+    padding: 70px 20px;
+    color: white;
+    font-family: "Albert Sans", sans-serif;}
+
+.footer-nome{font-size: 1.5em;
+    margin-top: -2.5%;
+    margin-left: 30%}
+    
+.footer-linha{margin-left: 30%}
+        
+.footer-contato{margin-left: 30%;
+    margin-top: 3%;}
+        
+.footer-email{margin-left: 30%;
+    margin-top: 1.5%;}
+    
+.footer-insta{margin-left:55%;
+    margin-top: -4%}
+    
+.footer-insta a{color: rgb(70, 116, 134)}
+    
+.footer-linkedin{margin-left:55%;
+    margin-top: 1.7%}
+    
+.footer-linkedin a{color: rgb(70, 116, 134)}
+
+
+
+
+
+/* Estilos gerais */
+body {
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header-2, footer{
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* Tema claro (default) */
+body.light-theme {
+   background-color: rgb(224, 224, 224);
+    color: #000000;
+}
+
+
+body.light-theme .header-2{
+    background-color: #13373a;
+    color: white;
+}
+
+body.light-theme .portfolio-div{
+color: #000000;
+}
+
+body.light-theme .section-flex div{
+    color: #000000;
+    }
+
+body.light-theme .div-port img{
+    border: solid 10px #13373a;
+}
+
+body.light-theme .descricao{
+    background-color: #0a1e20;
+}
+
+body.light-theme .imagem-descricao img{
+    margin-left: 10%};
+
+
+
+/* Tema escuro */
+body.dark-theme {
+    background-color: #455955;
+    color: white;
+}
+
+
+
+body.dark-theme .header-2{
+    background-color: #071415;
+    color: white;
+}
+
+
+body.dark-theme, body.dark-theme{
+    color: rgb(7, 7, 7);
+}
+
+body.dark-theme, body.dark-theme{
+    color: rgb(255, 255, 255);
+}
+
+body.light-theme .imagem-descricao2 img{
+    margin-left: 3%;}
+
+/* Estilo do botão de alternância */
+.toggleTheme {
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 600;
+}
+
+.toggleTheme:hover {
+    background-color: #555;
+}
+    
+            

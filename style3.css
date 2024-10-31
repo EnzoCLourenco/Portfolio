@@ -1,0 +1,268 @@
+body{margin: 0 0 0 0;
+    background-color: #455955;}
+    
+.header-2{
+    width: 100%;
+    height: 6vh;
+    background-color: #0D2426;
+    display: flex;
+text-align: center;}
+
+.header-e-0{
+    margin-left: 39%;
+    width: 3.5%;
+    margin-top: 0.5%;
+    font-size: 1em;
+    font-family: "Albert Sans", sans-serif;}
+
+
+.header-e-1{width: 5%;
+    margin-top: 0.5%;
+    font-size: 1em;
+    font-family: "Albert Sans", sans-serif;
+    margin-left: 1.7%;
+    }
+
+.header-e-2{width: 5%;
+    margin-top: 0.5%;
+    font-size: 1em;
+    font-family: "Albert Sans", sans-serif;
+    margin-left: 1.5%;
+    font-weight: 800;}
+
+.header-e-3{width: 5%;
+    margin-top: 0.5%;
+    font-size: 1em;
+    font-family: "Albert Sans", sans-serif;
+    margin-left: 0.5%;}
+    
+a{text-decoration: none;
+    color: white;}
+
+.header-vertical{width: 40%;
+height: 100vh;
+background-color: #000000;
+margin-left: 60%;
+vertical-align: auto;
+margin-top: -42.8%;
+position: fixed;}
+
+.div-formulario-header h1 {color: white;
+font-family: "Albert Sans", sans-serif;
+font-size: 3em;
+margin-left: 10%;
+padding-top: 6%;
+font-weight: 250;}
+
+.contato-email{margin-top: 10%;
+font-family: "Albert Sans", sans-serif;
+margin-left: 10%;
+color: white;
+font-size: 1.4em;
+font-weight: 250;}
+
+.input-email{width: 40%;
+height: 1.5vh;
+margin-top: 1% ;
+margin-left: 10%;
+font-size: 0.9em;}
+
+.div-recado{margin-top: 10%;
+font-family: "Albert Sans", sans-serif;
+margin-left: 10%;
+color: white;
+font-size: 1.4em;
+ font-weight: 250;}
+
+.input-recado{width: 60%;
+height: 6vh;
+margin-top: 1% ;
+margin-left: 10%;
+font-size: 0.9em;}
+
+.formulario-flex{
+    display: flex;
+}
+
+.contato-nome{margin-top: 7%;
+    font-family: "Albert Sans", sans-serif;
+    margin-left: 10%;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 250;
+width: 30%;}
+
+.input-nome{margin-left: 10%;
+width: 30%;}
+
+.input-sobrenome{margin-left: 8.5%;
+    width: 40%;}
+
+.contato-sobrenome{
+margin-top: 7%;
+font-family: "Albert Sans", sans-serif;
+margin-left: 10%;
+color: white;
+font-size: 1.4em;
+font-weight: 250;}
+
+.btn-enviar{margin-top:30%;
+width: 30%;
+height: 5vh;
+font-family: "Albert Sans", sans-serif;
+font-size: 1.5em;
+border-radius: 100px;
+margin-left: 34%;
+background-color: #78ee82;}
+
+.div-contato{font-size: 3em;
+margin-left: 25%;
+margin-top: 2%;
+font-family: "Albert Sans", sans-serif;
+font-weight: 350;}
+
+.contato-insta{margin-left: 6.5%;
+padding-top: 10%;
+font-family: "Albert Sans", sans-serif;
+font-size: 1.2em;
+text-align: center;
+width: 15%;
+display: flex;
+color: white;}
+
+.contato-insta a{color: rgb(36, 132, 170);}
+.contato-linkedin a{color: rgb(36, 132, 170);}
+
+
+.fundo-preto{width: 40%;
+height: 70vh;
+background-color: #000000;
+margin-left: 10%;
+margin-top: 3%;
+border-radius: 10px;
+}
+
+
+
+.contato-linkedin{margin-left: 6.5%;
+    margin-top: 20%;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 1.2em;
+    color: white;
+    width: 30%;}
+
+.contato-contato{color: white;
+margin-left: 55%;
+margin-top: -28%;
+font-family: "Albert Sans", sans-serif;
+font-size: 1.2em;}
+
+.contato-email-2{color: white;
+margin-left: 55%;
+margin-top: 20%;
+font-family: "Albert Sans", sans-serif;
+font-size: 1.2em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos gerais */
+body {
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header-2, footer, .fundo-preto, .header-vertical{
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* Tema claro (default) */
+body.light-theme {
+   background-color: rgb(224, 224, 224);
+    color: #000000;
+}
+
+
+body.light-theme .header-2{
+    background-color: #13373a;
+    color: white;
+}
+
+body.light-theme .portfolio-div{
+color: #000000;
+}
+
+body.light-theme .fundo-preto{
+    background-color: #9e9d9d;
+    color: #000000;
+    }
+
+    body.light-theme .fundo-preto div{
+        color: #000000;
+        }
+
+body.light-theme .header-vertical{
+    background-color: #9e9d9d;}
+
+ body.light-theme .div-formulario-header h1{
+     color: #000000;}
+
+body.light-theme .header-vertical div{
+    color: #000000;}
+
+
+
+
+
+
+/* Tema escuro */
+body.dark-theme {
+    background-color: #455955;
+    color: white;
+}
+
+
+
+body.dark-theme .header-2{
+    background-color: #071415;
+    color: white;
+}
+
+
+body.dark-theme, body.dark-theme{
+    color: rgb(7, 7, 7);
+}
+
+body.dark-theme, body.dark-theme{
+    color: rgb(255, 255, 255);
+}
+
+/* Estilo do botão de alternância */
+.toggleTheme {
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 600;
+}
+
+.toggleTheme:hover {
+    background-color: #555;
+}
+

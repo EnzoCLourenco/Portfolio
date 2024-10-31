@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+
+<header class="header-2">
+
+<div class="header-e-0"><a href="index.html">Home</a></div>
+<div class="header-e-1" class="portfolio-header"><a href="index2.html">Portfolio</a></div>
+<div class="header-e-2"><a href="index3.html">Contato</a></div>
+<div class="header-e-3"><a href="index4.html">Bio</a></div>
+<button id="toggleTheme" class="toggleTheme">Alternar Tema</button>
+</header>
+
+<div class="portfolio-div">Portfólio</div>
+
+<section class="section-flex"> 
+<div class="div-port"><img src="SiteTabelaPeriodica.png" alt=""></div>
+<div class="div-port"><img src="SitePhoto.png" alt=""></div>
+<div class="div-port"><img src="SiteCotemig.png" alt=""></div>
+<div class="div-port"><img src="SiteOgani.png" alt=""></div>
+</section>
+
+<section class="section-flex">
+    <div class="div-visitar">Visitar</div>
+    <div class="div-visitar">Visitar</div>
+    <div class="div-visitar">Visitar</div>
+    <div class="div-visitar">Visitar</div>
+</section>
+
+<div class="descricao">
+
+    <div class="imagem-descricao"><img src="SiteTabelaPeriodica2.png" alt="">
+        <div class="texto-descricao">Esse site foi meu primeiro trabalho em HTLM, quando entrei no meu colégio tecnico(Cotemig) eu não fazia ideia de como programar
+            nem como funcionava essa area. <br> Para me introduzir nesse mundo meu professor passou essa tabela como projeto, foi feita em TABLE, e estilizada em CSS,
+            as cores foram selecionadas <br> aleatoriamente, e a descriçao está logo em baixo da tabela para facil visualização.
+        </div>
+    </div>
+    <div class="imagem-descricao2"><img src="SitePhoto.png" alt="">
+        <div class="texto-descricao2">Esse site ja foi feito com mais experiencia, eu ja tinha mais noção das tags que estavam sendo ultilizadas, e mais noção de responsividade
+            usando muito mais <br> porcentagem do que pixels. Esse projeto foi uma reprodução de um exemplo de site, feito para aprender a usar o DISPLAY FLEX, uma tag muito 
+            ultilizada, <br> na época eu não fazia ideia de como usar e nem de como funcionava as dimensões espaciais(DIV), também consegui mais noção de como manipilar 
+            imagens. <br> No greal o site ficou muito parecido com o original, e foi de grande ajuda para o meu conhecimento tecnico.
+        </div>
+    </div>
+    <div class="imagem-descricao"><img src="SiteCotemig.png" alt="">
+        <div class="texto-descricao">Esse site ja foi feito com mais experiencia, eu ja tinha mais noção das tags que estavam sendo ultilizadas, e mais noção de responsividade
+            usando muito mais <br> porcentagem do que pixels. Esse projeto foi uma reprodução de um exemplo de site, feito para aprender a usar o DISPLAY FLEX, uma tag muito 
+            ultilizada, <br> na época eu não fazia ideia de como usar e nem de como funcionava as dimensões espaciais(DIV), também consegui mais noção de como manipilar 
+            imagens. <br> No greal o site ficou muito parecido com o original, e foi de grande ajuda para o meu conhecimento tecnico.
+        </div>
+    </div>
+    <div class="imagem-descricao2"><img src="SiteOgani.png" alt="">
+        <div class="texto-descricao2">Esse site ja foi feito com mais experiencia, eu ja tinha mais noção das tags que estavam sendo ultilizadas, e mais noção de responsividade
+            usando muito mais <br> porcentagem do que pixels. Esse projeto foi uma reprodução de um exemplo de site, feito para aprender a usar o DISPLAY FLEX, uma tag muito 
+            ultilizada, <br> na época eu não fazia ideia de como usar e nem de como funcionava as dimensões espaciais(DIV), também consegui mais noção de como manipilar 
+            imagens. <br> No greal o site ficou muito parecido com o original, e foi de grande ajuda para o meu conhecimento tecnico.
+        </div>
+    </div>
+
+
+
+</div>
+
+ 
+
+
+
+
+    
+<footer>
+    <div class="footer-nome">Enzo Costa Lourenço</div>
+    <div class="footer-linha">__________________________________________________________________________________</div>
+    <div class="footer-contato"> Contao: 12 997368083</div>
+    <div class="footer-email">Email: enzoclourenco22@gmail.com</div>
+    <div class="footer-insta">Instagram: <a href="https://www.instagram.com/enzoclourenco/">@enzoclourenco</a></div>
+    <div class="footer-linkedin">Linkedin: <a href="https://www.linkedin.com/in/enzo-louren%C3%A7o-a03166335/">Enzo Lourenço</a></div>
+</footer>
+
+
+<script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-theme');
+        body.classList.toggle('light-theme');
+        themeToggle.textContent = body.classList.contains('dark-theme') ? 'Modo Claro' : 'Modo Escuro';
+    });
+
+</script>
+
+<script src="script.js"></script> 
+
+</body>
+</html>

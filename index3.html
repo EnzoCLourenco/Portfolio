@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-theme">
+<header class="header-2">
+    <div class="header-e-0"><a href="index.html">Home</a></div>
+    <div class="header-e-1" class="portfolio-header"><a href="index2.html">Portfolio</a></div>
+    <div class="header-e-2"><a href="index3.html">Contato</a></div>
+    <div class="header-e-3"><a href="index4.html">Bio</a></div>
+    <button id="toggleTheme" class="toggleTheme">Alternar Tema</button>
+</header>
+
+<div class="div-contato">Contato</div>
+
+<div class="fundo-preto">
+    <div class="contato-insta">Instagram: <a href="">@enzoclourenco</a></div>
+    <div class="contato-linkedin">Linkedin: <a href="">Enzo Lourenço</a></div>`
+    <div class="contato-contato">Contato: 12 99736-8083</div>
+    <div class="contato-email-2">Email: enzoclourenco22@gmail.com</div>
+</div>
+
+
+<header class="header-vertical">
+
+    <div class="div-formulario-header"><h1>Formulario</h1></div>
+
+    <div class="formulario-flex">
+    <div class="contato-nome">Nome</div>
+        <div class="contato-sobrenome">sobrenome</div>
+    </div>
+    <input type="email" name="" id="" class="input-nome">
+    <input type="email" name="" id="" class="input-sobrenome">
+
+    <div class="contato-email">Email:</div>
+        <input type="email" name="" id="" class="input-email">
+    <div class="div-recado">Algum recado?</div>
+        <input type="email" name="" id="" class="input-recado">
+
+    <button class="btn-enviar">Enviar</button>
+
+</header>
+
+<script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-theme');
+        body.classList.toggle('light-theme');
+        themeToggle.textContent = body.classList.contains('dark-theme') ? 'Modo Claro' : 'Modo Escuro';
+    });
+
+</script>
+
+
+<script src="script.js"></script> 
+    
+</body>
+</html>
