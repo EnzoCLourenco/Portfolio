@@ -1,87 +1,338 @@
 body{margin: 0 0 0 0;
-background-color: #455955;}
-
+    background-color: #455955;}
+    
 .header1{
     width: 100%;
     height: 6vh;
     background-color: #0D2426;
-    display: flex;}
-
-.header-e-0{margin-left: 39.5%;
-    width: 5%;
-    margin-top: 0.5%;
-    font-size: 1em;
-    font-family: "Albert Sans", sans-serif;}
-
-.header-e{width: 5%;
-margin-top: 0.5%;
-font-size: 1em;
-font-family: "Albert Sans", sans-serif;
-margin-left: 2%;}
-
-a{text-decoration: none;
-color: white;}
-
-.nome{text-align: center;
-font-size: 3em;
-margin-top: 10%;
-color: white;
-font-family: "Albert Sans", sans-serif;
-font-weight: 150;}
-
-.nome-programador{
-    text-align: center;
-        font-size: 1.5em;
-        color: white;
-        font-family: "Albert Sans", sans-serif;
-        font-weight: 100;
+    display: flex;
+    position: fixed;
+		z-index: 1;
 }
 
+
+    
+.header-e-0{
+    width: 4%;
+    margin-top: 0.5%;
+    margin-left: 39.9%;
+    font-size: 1em;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 800;}
+    
+.header-e{width: 5%;
+    margin-top: 0.5%;
+    font-size: 1em;
+    font-family: "Albert Sans", sans-serif;
+    margin-left: 30px;}
+    
+a{text-decoration: none;
+    color: white;}
+    
+.foto-perfil img{width: 15%;
+    height: 20vh;
+    margin-top: 5%;
+    margin-left: 42.5%;
+    border-radius: 30px;
+    object-fit: cover;}
+
+.nome{text-align: center;
+    font-size: 3em;font: fallback;
+    margin-top: 1.5%;
+    color: white;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 150;}
+    
+.nome-programador{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 250;}
+    
 .section-1{display: flex;
     justify-content: space-around;
     width: 15%;
     text-align: center;
     margin: auto;
     height: 50px;
-margin-top: 1.3%;}
-
+    margin-top: 1.3%;}
+    
 .svg-insta{width: 25%;
-
-fill: white;}
-
-
-
-.svg-linkedin{width: 25%;
-
-fill: white}
-
+    fill: white;}
+    
+    
+.svg-linkedin{width: 25%; 
+    fill: white}
+    
 .svg-email{width: 27%;
+    fill: white;}
 
-fill: white;}
 a:hover svg {fill: #0D2426;}
-
+    
 .rodape1{width: 100%;
     height: 10vh;
     background-color: #071415;
-    margin-top: 16.5%;
+    margin-top: 16.5%;}
+
+
+
+
+
+    
+footer{background-color: black;
+    margin: 300px 0px 0px 0px;
+    padding: 70px 20px;
+    color: white;
+    font-family: "Albert Sans", sans-serif;}
+    
+.footer-nome{font-size: 1.5em;
+    margin-top: -2.5%;
+    margin-left: 30%}
+
+.footer-linha{margin-left: 30%}
+    
+.footer-contato{margin-left: 30%;
+    margin-top: 3%;}
+    
+.footer-email{margin-left: 30%;
+    margin-top: 1.5%;}
+
+.footer-insta{margin-left:55%;
+margin-top: -4%}
+
+.footer-insta a{color: rgb(70, 116, 134)}
+
+.footer-linkedin{margin-left:55%;
+    margin-top: 1.7%}
+
+.footer-linkedin a{color: rgb(70, 116, 134)}
+
+
+
+
+.slider{
+  margin: 0 auto;
+	width: 800px;
+	height: 400px;
+	overflow: hidden;
+	margin-top: 8%;
+	border: solid 15px #071415;
+	transition: 0.3s;}
+
+.slides{
+	width: 400%;
+	height: 400px;
+	display: flex;
+}
+
+.slides input{
+display: none;
+}
+
+.slide{
+	width: 25%;
+	position: relative;
+	transition: 1s;
+}
+.slide img{
+	width: 1000px;
+}
+
+
+.manual-navigation{
+	position: absolute;
+	width: 800px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+	margin-left: -30px;
+}
+
+.manual-btn{
+	border: 2px solid rgb(255, 255, 255);
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.7s;
+}
+
+.manual-btn:not(:last-child){
+	margin-right: 40px;
+}
+
+.manual-btn:hover{
+	background-color: white;
+}
+
+
+
+#radio1:checked ~ .first{
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+	margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+	margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+	margin-left: -75%;
+}
+
+.navigation-auto div{
+	border: 2px solid rgb(255, 255, 255);
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.7s;
+}
+
+.navigation-auto{
+	position: absolute;
+	width: 800px;
+	margin-top: 360px;
+	display: flex;
+	justify-content: center;
+	margin-left: -30px;
+}
+
+.navigation-auto div:not(:last-child)
+{
+	margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+	background-color:rgb(0, 0, 0);
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+	background-color:rgb(0, 0, 0);
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+	background-color:rgb(0, 0, 0);
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+	background-color:rgb(0, 0, 0);
+}
+
+
+
+/* Estilos gerais */
+body {
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header1, footer, .section-1, .nome, .nome-programador {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* Tema claro (default) */
+body.light-theme {
+   background-color: rgb(224, 224, 224);
+    color: #000000;
+}
+
+body.light-theme, .color-black div {
+
+     color: #000000;
+
+ }
+
+ body.light-theme, .section-1 svg {
+
+    fill: #000000;
 
 }
 
-footer{background-color: black;
-margin: 505px 0px 0px 0px;
-padding: 9px 20px;
-color: white;
-font-family: "Albert Sans", sans-serif;}
 
-.a-email{margin-left: 2%;}
+body.light-theme .header1 {
+    background-color: #13373a;
+    color: white;
+}
 
-
-
-
+body.light-theme .slider{
+border: solid 15px #13373a;
+}
 
 
 
+/* Tema escuro */
+body.dark-theme {
+    background-color: #455955;
+    color: white;
+}
+
+
+body.dark-theme .color-black div {
+  
+    color: white;
+}
+
+body.dark-theme .section-1 svg {
+  
+    fill: white;
+}
+
+body.dark-theme .header1{
+    background-color: #071415;
+    color: white;
+}
+
+
+body.dark-theme, body.dark-theme .nome, .nome-programador{
+    color: rgb(7, 7, 7);
+}
+
+body.dark-theme, body.dark-theme .nome, .nome-programador{
+    color: rgb(255, 255, 255);
+}
+
+/* Estilo do botão de alternância */
+.toggleTheme {
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 600;
+}
+
+.toggleTheme:hover {
+    background-color: #555;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+ 
+
+    
+}   
