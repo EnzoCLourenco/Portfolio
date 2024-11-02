@@ -39,134 +39,110 @@ text-align: center;}
 a{text-decoration: none;
     color: white;}
 
-.header-vertical{width: 40%;
-height: 100vh;
-background-color: #000000;
-margin-left: 60%;
-vertical-align: auto;
-margin-top: -42.8%;
-position: fixed;}
 
-.div-formulario-header h1 {color: white;
-font-family: "Albert Sans", sans-serif;
-font-size: 3em;
-margin-left: 10%;
-padding-top: 6%;
-font-weight: 250;}
 
-.contato-email{margin-top: 10%;
-font-family: "Albert Sans", sans-serif;
-margin-left: 10%;
-color: white;
-font-size: 1.4em;
-font-weight: 250;}
 
-.input-email{width: 40%;
-height: 1.5vh;
-margin-top: 1% ;
-margin-left: 10%;
-font-size: 0.9em;}
+.fundo-preto{
+    width: 100%;
+    height: 94vh;
+    background-color: #000000;
+    position: absolute;
+}
 
-.div-recado{margin-top: 10%;
-font-family: "Albert Sans", sans-serif;
-margin-left: 10%;
-color: white;
-font-size: 1.4em;
- font-weight: 250;}
+.fundo-contato {
+    margin-top: 3%;
+    color: white;
+    font-size: 3em;
+    font-family: "Albert Sans", sans-serif;
+    margin-left: 5%;
+    font-weight: 250;
+    transition: 0.3s;
 
-.input-recado{width: 60%;
-height: 6vh;
-margin-top: 1% ;
-margin-left: 10%;
-font-size: 0.9em;}
+}
 
-.formulario-flex{
+#input-nome{
+    margin-top: 0.5%;
+    width: 200%;
+    height: 5vh;
+    margin-left: 3%;
+    margin-left: 50%;
+}
+
+.texto-nome{
+    margin-top: 3%;
+    margin-left: 4.7%;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+#input-email{
+    margin-top: 0.5%;
+    width: 200%;
+    height: 5vh;
+    margin-left: 200%;
+}
+
+.texto-email{
+    margin-top: 3%;
+    margin-left: 19.7%;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+.inputs-flex{
     display: flex;
 }
 
-.contato-nome{margin-top: 7%;
-    font-family: "Albert Sans", sans-serif;
-    margin-left: 10%;
-    color: white;
-    font-size: 1.4em;
-    font-weight: 250;
-width: 30%;}
-
-.input-nome{margin-left: 10%;
-width: 30%;}
-
-.input-sobrenome{margin-left: 8.5%;
-    width: 40%;}
-
-.contato-sobrenome{
-margin-top: 7%;
-font-family: "Albert Sans", sans-serif;
-margin-left: 10%;
-color: white;
-font-size: 1.4em;
-font-weight: 250;}
-
-.btn-enviar{margin-top:30%;
-width: 30%;
-height: 5vh;
-font-family: "Albert Sans", sans-serif;
-font-size: 1.5em;
-border-radius: 100px;
-margin-left: 34%;
-background-color: #78ee82;}
-
-.div-contato{font-size: 3em;
-margin-left: 25%;
-margin-top: 2%;
-font-family: "Albert Sans", sans-serif;
-font-weight: 350;}
-
-.contato-insta{margin-left: 6.5%;
-padding-top: 10%;
-font-family: "Albert Sans", sans-serif;
-font-size: 1.2em;
-text-align: center;
-width: 15%;
-display: flex;
-color: white;}
-
-.contato-insta a{color: rgb(36, 132, 170);}
-.contato-linkedin a{color: rgb(36, 132, 170);}
-
-
-.fundo-preto{width: 40%;
-height: 70vh;
-background-color: #000000;
-margin-left: 10%;
-margin-top: 3%;
-border-radius: 10px;
+.div-flex{
+    display:flex ;
 }
 
-
-
-.contato-linkedin{margin-left: 6.5%;
-    margin-top: 20%;
+.div-recado{
+    margin-top: 2%;
+    margin-left: 5%;
     font-family: "Albert Sans", sans-serif;
+    font-weight: 200;
+    font-size: 1.5em;}
+
+#input-recado{
+    margin-top: 0.5%;
+    width: 41%;
+    height: 30vh;
+    margin-left: 5%;
+
+}
+
+.btn-enviar{
+    margin-left: 15.5%;
+    margin-top: 2%;
+    width: 18%;
+    height: 7vh;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 2em;
+    background-color: #6ab84b;
+
+}
+
+.div-informacoes{
+    width: 35%;
+    height: 45vh;
+    margin-left: 57%;
+    margin-top: 4.3%;
+    position: absolute;}
+
+.inf{
+    text-align: center;
+    margin-top: 2.5%;
+    font-family: "Albert Sans", sans-serif;
+    line-height: 4em;
     font-size: 1.2em;
-    color: white;
-    width: 30%;}
-
-.contato-contato{color: white;
-margin-left: 55%;
-margin-top: -28%;
-font-family: "Albert Sans", sans-serif;
-font-size: 1.2em;}
-
-.contato-email-2{color: white;
-margin-left: 55%;
-margin-top: 20%;
-font-family: "Albert Sans", sans-serif;
-font-size: 1.2em;}
-
-
-
-
-
+}
+.inf-nome{
+    font-size: 2em;
+    font-weight: 200;
+}
 
 
 
@@ -182,7 +158,7 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.header-2, footer, .fundo-preto, .header-vertical{
+.header-2, footer, .fundo-preto {
     transition: background-color 0.3s, color 0.3s;
 }
 
