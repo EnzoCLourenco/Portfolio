@@ -39,36 +39,37 @@ body{margin: 0 0 0 0;
 a{text-decoration: none;
 color: white;}
 
-.div-biografia
-{
+.div-biografia{
 font-size: 3em;
-margin-top: 3%;
+margin-top: 7%;
 margin-left: 5%; 
 font-family: "Albert Sans", sans-serif;
-font-weight: 150;
+font-weight: 200;
 color: white;
+transition: 0.3s;
 }
 
 .fundo-preto{
     width: 60%;
-    height: 70vh;
-    background-color: black;
-    margin-left: 5%;
-    margin-top: 3%;
-    border-radius: 10px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+		color: white;
 }
 
 .flex{display: flex;}
     
 
-.div-quem{font-size: 3em;
-    margin-top: 3%;
-    margin-left: 5%; 
-    font-family: "Albert Sans", sans-serif;
-    font-weight: 150;
-    color: white;}
-
-
+.texto-biografia{
+	font-size: 1.2em;
+	margin-top: 3%;
+	margin-left: 5%;
+	font-family: "Albert Sans", sans-serif;
+width: 90%;
+	text-align: justify;
+	color: #000000;
+	transition: 0.3s;
+	line-height: 1.5em
+}
 
 
 
@@ -108,7 +109,7 @@ body.light-theme .header-2{
 
 
 body.light-theme .fundo-preto{
-    background-color: #9e9d9d;
+    background-color: #c5c5c5;
     color: #000000;
     }
 
@@ -128,6 +129,9 @@ body.light-theme, .flex div{
 body.light-theme .header-vertical div{
     color: #000000;}
 
+		body.light-theme .texto-biografia{
+			color: rgb(0, 0, 0);
+		}
 
 
 
@@ -151,12 +155,17 @@ body.dark-theme .div-quem{
 }
 
 body.dark-theme, body.dark-theme{
-    color: rgb(7, 7, 7);
+    color: rgb(255, 255, 255);
 }
 
 body.dark-theme, body.dark-theme{
     color: rgb(255, 255, 255);
 }
+
+body.dark-theme .fundo-preto div{
+	color: rgb(255, 255, 255);
+}
+
 
 /* Estilo do botão de alternância */
 .toggleTheme {
